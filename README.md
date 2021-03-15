@@ -15,7 +15,7 @@ docker-compose up -d
 To deploy the Prisma schema run:
 
 ```bash
-prisma1 deploy
+prisma deploy
 ```
 
 This generates the prisma client and nexus-prisma bindings and schema.graphql.
