@@ -4,18 +4,18 @@
 Install prisma and docker
 
 ```bash
-npm i -g prisma
+sudo npm i -g prisma
 ```
 
 Run: 
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 To deploy the Prisma schema run:
 
 ```bash
-prisma deploy
+npx prisma1 deploy
 ```
 
 This generates the prisma client and nexus-prisma bindings and schema.graphql.
